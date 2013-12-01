@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit同步回调函数示例</title>
+  <link rel="stylesheet" href="/qunit/qunit.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="/jquery.js"></script>
+  <script src="/qunit/qunit.js"></script>
+  <script>
+	test("调用同步回调函数示例", function() {
+	  expect(2);
+	  var $body = $("body");
+	 
+	  $body.on("click", function() {
+	    // ok(true, "点击了body元素！");
+	  });
+	 
+	  $body.trigger("click" );
+          ok(true, "测试用例执行完毕了！");
+	});
+  </script>
+</body>
+</html>

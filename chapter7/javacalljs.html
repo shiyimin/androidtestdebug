@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="mul">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>安卓Java代码调用JavaScript代码的示例</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+         function sample() {
+             // 使用jQuery来定位要显示的文本
+             $('#hiddentext').show();
+         }
+    </script>
+  </head>
+  <body>
+    <h2>安卓Java代码调用JavaScript代码的示例</h2>
+    <p>网页里有一个JavaScript函数，当加载网页之后，</p>
+    <p id="hiddentext" style="display:none">由JavaScript代码控制显示的隐藏文字</p>
+    <input type="button" onclick="javascript:sample();" value="测试" />
+  </body>
+</html>
+

@@ -27,3 +27,11 @@ proguard/
 *.ipr
 *.iws
 .idea/
+
+# emacs temporary files
+*~
+.svn/
+.settings/
+.goutputstream*
+target/
+obj/

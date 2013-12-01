@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit基本单元测试用例</title>
+  <link rel="stylesheet" href="/qunit/qunit.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="/qunit/qunit.js"></script>
+  <script>
+      test("最基本的单元测试", function () {
+          var value = "hello";
+          equal(value, "hello", "期望值是'hello'！");
+      });
+  </script>
+</body>
+</html>

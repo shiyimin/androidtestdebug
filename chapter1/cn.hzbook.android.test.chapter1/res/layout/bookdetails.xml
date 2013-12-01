@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+      <Button android:layout_height="wrap_content"
+	      android:layout_width="wrap_content"
+	      android:id="@+id/btnBack"
+	      android:text="保存" />
+      <Button android:layout_height="wrap_content"
+	      android:layout_width="wrap_content"
+	      android:id="@+id/btnEdit"
+	      android:text="编辑" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Title"
+		  android:id="@+id/title_label"
+		  android:padding="3dip" />
+	<TextView android:id="@+id/title"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Author"
+		  android:id="@+id/author_label"
+		  android:padding="3dip" />
+	<TextView android:id="@+id/author"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Copyright"
+		  android:id="@+id/copyright_label"
+		  android:padding="3dip" />
+	<TextView android:id="@+id/copyright"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content" />
+    </TableRow>    
+</TableLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">WebViewDemo</string>
+    <string name="btnBrowse_text">浏览</string>
+    <string name="labelUrl_text">网址：</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_main">WebView控件示例</string>
+</resources>

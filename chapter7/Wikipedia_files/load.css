@@ -1,0 +1,295 @@
+body{
+    background-color:white;
+    font:13px/1.5 sans-serif;
+    margin:0.3em 0
+}
+
+a,a:active,a:focus{
+    unicode-bidi:embed;
+    white-space:nowrap;
+    outline:0;
+    color:#0645AD;
+    text-decoration:none
+}
+
+a:hover{
+    text-decoration:underline
+}
+
+img{
+    border:none;
+    vertical-align:middle
+}
+
+.nowrap{
+    white-space:nowrap
+}
+
+#content{
+    width:80%;
+    margin:0 auto
+}
+
+table#content th,table#content td{
+    padding:0.5em 1em;
+    vertical-align:middle;
+    text-align:center
+}
+
+table#content td#intro{
+    text-align:justify;
+    vertical-align:top;
+    width:75%
+}
+
+table#content td#footer{
+    text-align:center;
+    border-top:1px solid #AAAAAA
+}
+
+a.extiw,a.extiw:active,a.extiw:visited,a.extiw:active,a.external,a.external:visited,a.external:active{
+    color:#36b
+}
+
+.central-textlogo{
+    margin:1em 0 0.3em 0;
+    text-align:center;
+    font-size:30px;
+    line-height:110%;
+    font-family:'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',Times,serif;
+    padding:10px 0
+}
+
+.central-featured{
+    position:relative;
+    text-align:center;
+    vertical-align:middle;
+    max-width:100%;
+    width:42em;
+    margin:0 auto;
+    height:26em
+}
+
+.central-featured-logo{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:0;
+    height:0
+}
+
+.central-featured-logo-inner{
+    position:relative;
+    left:-100px;
+    top:-115px;
+    width:200px;
+    height:200px
+}
+
+.central-featured-lang{
+    position:absolute
+}
+
+.central-featured-lang .link-box{
+    display:block;
+    padding:0;
+    text-decoration:none
+}
+
+.central-featured-lang .link-box:hover strong{
+    text-decoration:underline
+}
+
+.central-featured-lang .link-box em,.central-featured-lang .link-box small{
+    color:black;
+    text-decoration:none
+}
+
+.central-featured-lang strong{
+    font-size:larger
+}
+
+.central-featured-lang em{
+    font-style:italic
+}
+
+.central-featured-lang em.emNonItalicLang{
+    font-style:normal
+}
+
+.lang1{
+    top:0%;
+    right:60%
+}
+
+.lang2{
+    top:0%;
+    left:63%
+}
+
+.lang3{
+    top:20%;
+    left:7%
+}
+
+.lang4{
+    top:20%;
+    right:5%
+}
+
+.lang5{
+    top:40%;
+    left:0%
+}
+
+.lang6{
+    top:40%;
+    right:0%
+}
+
+.lang7{
+    top:60%;
+    left:7%
+}
+
+.lang8{
+    top:60%;
+    right:6%
+}
+
+.lang9{
+    top:80%;
+    right:64%
+}
+
+.lang10{
+    top:80%;
+    left:62%
+}
+
+.search-container{
+    float:none;
+    margin:1em auto 1.5em auto;
+    max-width:95%;
+    padding:0.3em;
+    text-align:center;
+    vertical-align:middle;
+    width:540px
+}
+
+.search-container h5{
+    white-space:normal
+}
+
+.search-container label span{
+    white-space:nowrap
+}
+
+.search-form fieldset{
+    background-color:#f9f9f9;
+    border:1px solid #aaa;
+    margin-top:0.5em;
+    padding:0.7em;
+    width:auto
+}
+
+.search-form #searchInput{
+    font-size:1.2em;
+    margin:0;
+    padding:0;
+    vertical-align:top
+}
+
+.search-form select{
+    margin:0 0.4em;
+    padding:0;
+    vertical-align:middle
+}
+
+.search-form .searchButton{
+    font-size:1.2em;
+    margin:0;
+    padding:0;
+    vertical-align:middle
+}
+
+.bookshelf-container{
+    width:100%;
+    overflow:hidden;
+    margin:2em 0 0.5em 0
+}
+
+.bookshelf-container-small{
+    margin:0.5em 0
+}
+
+.bookshelf{
+    width:1100%;
+    overflow:hidden;
+    position:relative;
+    left:-500%;
+    text-align:center;
+    white-space:nowrap
+}
+
+.langlist{
+    text-align:center;
+    margin:0.5em 3em 2.5em 3em
+}
+
+.langlist-large{
+    font-size:larger
+}
+
+.langlist-tiny{
+    margin:0.5em 3em 3em 3em
+}
+
+.langlist-others{
+    margin:0 3em 2em 3em;
+    font-weight:bold
+}
+
+.otherprojects{
+    float:left;
+    font-weight:bold;
+    margin:1.5em 0;
+    text-align:center;
+    vertical-align:middle;
+    width:100%
+}
+
+.otherprojects-item{
+    float:left;
+    height:60px;
+    min-width:12em;
+    width:33%
+}
+
+.wm-site-info{
+    clear:both;
+    margin:2.5em 0 2em 0;
+    text-align:center
+}
+
+@media print{
+    body{
+        background-color:transparent
+    }
+
+    a{
+        color:black !important;
+        background:none !important;
+        padding:0 !important
+    }
+
+    a:link,a:visited{
+        color:#520;
+        background:transparent
+    }
+
+    img{
+        border:none
+    }
+}
+/* cache key: metawiki:resourceloader:filter:minify-css:7:9da2956a92929694916f8fcd49681de0 */

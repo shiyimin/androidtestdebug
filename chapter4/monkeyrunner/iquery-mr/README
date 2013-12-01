@@ -1,0 +1,2 @@
+用eclipse编译完毕后，再在根目录下执行下面的命令：
+jar cvfm bin/plugin.jar manifest.txt -C bin .

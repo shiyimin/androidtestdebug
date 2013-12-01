@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="19dp"
+        android:layout_alignBottom="@+id/title_edit_text"
+        android:text="@string/title_label_text"
+        tools:context=".AddBookActivity" />
+
+    <EditText
+        android:id="@+id/title_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:inputType="text"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/author_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:inputType="text"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="17dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/author_edit_text"
+        android:layout_alignLeft="@+id/textView1"
+        android:text="@string/author_label_text"
+        tools:context=".AddBookActivity" />
+
+    <Button
+        android:id="@+id/add_book_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/author_edit_text"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="33dp"
+        android:text="@string/add_book_button_label_text" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">cn.hzbook.android.test.chapter3.activitymonitor</string>
+    <string name="home">http://www.google.com</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">第三章ActivityMonitor示例</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit同步回调函数示例</title>
+  <link rel="stylesheet" href="/qunit/qunit.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="/jquery.js"></script>
+  <script src="/qunit/qunit.js"></script>
+  <script>
+	asyncTest("异步测试用例示例!", function() {
+          // 通过设置用例里有一个断言来测试
+          // 异步函数是否被正确调用了！
+	  expect(1);
+	 
+          // 等待一秒钟再执行下面的函数
+	  setTimeout(function() {
+	    ok(true, "一秒钟后，调用了异步函数！");
+            // 测试执行程序只会在用例调用了start函数之后
+            // 运行后面一个用例
+	    start();
+	  }, 1000);
+	});
+  </script>
+</body>
+</html>

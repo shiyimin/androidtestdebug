@@ -1,0 +1,55 @@
+# begin of head
+count = 1
+speed = 1.0
+start data >>
+
+PowerLog(QQTest)
+LaunchActivity(com.tencent.mobileqq, com.tencent.mobileqq.activity.SplashActivity)
+UserWait(10000)
+
+DispatchPress(KEYCODE_2)
+UserWait(200)
+DispatchPress(KEYCODE_3)
+UserWait(200)
+DispatchPress(KEYCODE_1)
+UserWait(200)
+DispatchPress(KEYCODE_9)
+UserWait(200)
+DispatchPress(KEYCODE_2)
+UserWait(200)
+DispatchPress(KEYCODE_5)
+UserWait(200)
+DispatchPress(KEYCODE_1)
+UserWait(200)
+DispatchPress(KEYCODE_3)
+UserWait(200)
+DispatchPress(KEYCODE_1)
+UserWait(200)
+DispatchPress(KEYCODE_3)
+UserWait(200)
+
+# 点击““密码”文本框
+DispatchPointer(5109520,5109520, 0, 128, 235, 0, 0, 0, 0, 0, 0, 0)
+DispatchPointer(5109521,5109521, 1, 128, 235, 0, 0, 0, 0, 0, 0, 0)
+UserWait(200)
+
+# 输入密码
+DispatchPress(KEYCODE_5)
+UserWait(200)
+DispatchPress(KEYCODE_L)
+UserWait(200)
+DispatchPress(KEYCODE_5)
+UserWait(200)
+DispatchPress(KEYCODE_5)
+UserWait(200)
+DispatchPress(KEYCODE_0)
+UserWait(200)
+DispatchPress(KEYCODE_8)
+UserWait(200)
+
+# 点击“登录”按钮
+DispatchPointer(5109520,5109520, 0, 353, 325, 0, 0, 0, 0, 0, 0, 0)
+DispatchPointer(5109521,5109521, 1, 353, 325, 0, 0, 0, 0, 0, 0, 0)
+UserWait(200)
+
+WriteLog()

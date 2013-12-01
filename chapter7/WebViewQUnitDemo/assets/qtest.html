@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>WebView QUnit演示</title>
+  <link rel="stylesheet" href="qunit.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="jquery.js"></script>
+  <script src="qunit.js"></script>
+  <script>
+      test("WebView QUnit测试", function () {
+          equal(android.add(1, 2), 3, "从Android中返回1+2的结果应该是3！");
+      });
+  </script>
+</body>
+</html>

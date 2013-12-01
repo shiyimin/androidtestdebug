@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPackage AndroidFramework="Android 1.0" apkToTestName="cn.hzbook.android.test.chapter1" appNameSpace="cn.hzbook.android.test.chapter1.test" appPackageName="cn.hzbook.android.test.chapter1.test" jarPath="" name="cn.hzbook.android.test.chapter1.test" packageToTest="cn.hzbook.android.test.chapter1" referenceAppTest="true" runner="android.test.InstrumentationTestRunner" version="1.0">
+  <TestSuite name="cn">
+    <TestSuite name="hzbook">
+      <TestSuite name="android">
+        <TestSuite name="test">
+          <TestSuite name="chapter1">
+            <TestSuite name="test">
+              <TestCase name="HelloWorldTest">
+                <Test name="test第一个测试用例"/>
+              </TestCase>
+            </TestSuite>
+          </TestSuite>
+        </TestSuite>
+      </TestSuite>
+    </TestSuite>
+  </TestSuite>
+</TestPackage>
