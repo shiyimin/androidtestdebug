@@ -1,0 +1,36 @@
+{
+  "name": "maven",
+  "description": "Installs/Configures maven",
+  "long_description": "Description\n===========\n\nInstall and configure maven2 and maven3 from the binaries provided by\nthe maven project\n\nHas `maven` LWRP for pulling a maven artifact from a maven repository and\nplacing it in an arbitrary location.\n\nHas `maven_repo` LWRP that allows you to add your custom repo to the list\nof repos searched for artifacts\n\nRequirements\n============\n\nPlatform:\n\n* Debian, Ubuntu, CentOS, Red Hat, Fedora\n\nThe following Opscode cookbooks are dependencies:\n\n* java - this cookbook not only depends on the java virtual machine\n  but it also depends on the java_ark LWRP present in the java cookbooks\n* ark - used to unpack the maven tarball\n\nAttributes\n==========\n\n* default['maven']['version']  defaults to 2\n* default['maven']['m2_home']  defaults to  '/usr/local/maven/'\n* default['maven']['m2_download_url']  the download url for maven2\n* default['maven']['m2_checksum']  the checksum, which you will have\n to recalculate if you change the download url\n* default['maven']['m3_download_url'] download url for maven3\n* default['maven']['m3_checksum'] the checksum, which you will have\n to recalculate if you change the download url\n\n\nUsage\n=====\n\nSimply include the recipe where you want Apache Maven installed.\n\n\nProviders/Resources\n===================\n\nmaven\n-----\n\n* artifact_id: if this is not specified, the resource's name is used\n* group_id: group_id for the artifact\n* version: version of the artifact\n* dest: the destination folder for the jar and its dependencies\n* packaging: defaults to 'jar'\n* repositories: array of maven repositories to use, defaults to\n [\"http://repo1.maven.apache.org/maven2\"]\n* owner: the owner of the resulting file, default is root\n* mode: integer value for file permissions, default is 0644\n\n\n# Examples\n\n    maven \"mysql-connector-java\" do\n      group_id \"mysql\"\n      version \"5.1.19\"\n      dest \"/usr/local/tomcat/lib/\"\n    end\n\nmaven_repo\n----------\n\nTODO, coming soon\n\nLicense and Author\n==================\n\nAuthor:: Seth Chisamore (<schisamo@opscode.com>)\nAuthor:: Bryan W. Berry (<bryan.berry@gmail.com>)\n\nCopyright 2010-2012, Opscode, Inc.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n",
+  "maintainer": "Bryan W. Berry",
+  "maintainer_email": "bryan.berry@gmail.com",
+  "license": "Apache 2.0",
+  "platforms": {
+    "debian": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "redhat": ">= 0.0.0",
+    "fedora": ">= 0.0.0"
+  },
+  "dependencies": {
+    "java": ">= 0.0.0",
+    "ark": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.3.0"
+}
