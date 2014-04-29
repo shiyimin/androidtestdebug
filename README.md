@@ -5,6 +5,8 @@
 1. [虚拟机的下载地址](http://aqkwdkgcpv.l55.yunpan.cn/lk/QNpYuw7QWu8gK)， 访问密码 10eb 。
 2. 按下面的方式从本源码自动创建并部署一个虚拟机，;)。
 
+** 自动部署虚拟机的方法还没有做完，请不要尝试！！！ **
+
 ### 使用说明
 1. 下载并安装最新的Virtual Box: https://www.virtualbox.org/wiki/Downloads
 2. 下载并安装最新的Vagrant: http://vagrantup.com/
