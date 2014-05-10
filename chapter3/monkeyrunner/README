@@ -1,6 +1,0 @@
-# 先启动Android模拟器
-~/android-sdk/tools/emulator -avd Android2
-# 再启动录制程序
-~/android-sdk/tools/monkeyrunner monkey_recorder.py
-# 录制完毕后，将文件导出为testcase.mr；使用下面的命令回放
-~/android-sdk/tools/monkeyrunner monkey_playback.py testcase.mr
