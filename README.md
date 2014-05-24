@@ -1,8 +1,8 @@
-这是随《[Android应用测试与调试实战](http://www.amazon.cn/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91-Android%E5%BA%94%E7%94%A8%E6%B5%8B%E8%AF%95%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%88%98-%E6%96%BD%E6%87%BF%E6%B0%91/dp/B00JPUUATC/ref=tmm_pap_title_0?ie=UTF8&qid=1398769605&sr=8-1)》附带的示例代码，**欢迎购买我新书的读者下载** - 没有购买的网友也可以下载。
+﻿这是随《[Android应用测试与调试实战](http://www.amazon.cn/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91-Android%E5%BA%94%E7%94%A8%E6%B5%8B%E8%AF%95%E4%B8%8E%E8%B0%83%E8%AF%95%E5%AE%9E%E6%88%98-%E6%96%BD%E6%87%BF%E6%B0%91/dp/B00JPUUATC/ref=tmm_pap_title_0?ie=UTF8&qid=1398769605&sr=8-1)》附带的示例代码，**欢迎购买我新书的读者下载** - 没有购买的网友也可以下载。
 
 有两个方法下载书中提到的虚拟机：
 
-1. [虚拟机的下载地址](http://aqkwdkgcpv.l55.yunpan.cn/lk/QNpYuw7QWu8gK)， 访问密码 10eb 。
+1. [虚拟机的下载地址](http://yunpan.cn/QiNrLUnPMZJrF)， 访问密码 7e4e 。
 2. 按下面的方式从本源码自动创建并部署一个虚拟机，;)。
 
 ** 自动部署虚拟机的方法还没有做完，请不要尝试！！！ **
