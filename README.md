@@ -2,7 +2,7 @@
 
 有两个方法下载书中提到的虚拟机：
 
-1. [虚拟机的下载地址](http://yunpan.360.cn)，用户名：androidtestdebug@vikvon.com，密码：ilovetest，自行下载 。
+1. ~~[虚拟机的下载地址](http://yunpan.360.cn)，用户名：androidtestdebug@vikvon.com，密码：ilovetest，自行下载 。~~ *目前已经没有地方可以放虚拟机了，虚拟机一共有27G，没有云盘给我提供这么大的免费空间*。
 2. 按下面的方式从本源码自动创建并部署一个虚拟机，;)。
 
 *自动部署虚拟机的方法还没有做完，请不要尝试！！！*
