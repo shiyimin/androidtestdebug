@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidAlarm</string>
+    <string name="hello_world">闹铃服务演示！</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">闹铃</string>
+    <string name="local_service_started">闹钟服务已启动</string>
+    <string name="local_service_stopped">闹钟服务已停止</string>
+    <string name="local_service_label">闹钟服务</string>
+    <string name="btn_label_start_service">启动服务</string>
+    <string name="btn_label_stop_service">停止服务</string>
+    <string-array name="spinner_array_item">
+				<item>每天</item>
+				<item>每周</item>
+				<item>每月</item>
+		 </string-array>
+</resources>

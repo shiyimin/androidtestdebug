@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+        <!-- 
+      <Button android:layout_height="wrap_content"
+	      android:layout_width="wrap_content"
+	      android:id="@+id/btnBack"
+	      android:text="后退" /> 
+	      -->
+      <Button android:layout_height="wrap_content"
+	      android:layout_width="wrap_content"
+	      android:id="@+id/btnOk"
+	      android:text="保存" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Title"
+		  android:padding="3dip" />
+	<EditText android:id="@+id/title"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Author"
+		  android:padding="3dip" />
+	<EditText android:id="@+id/author"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Copyright"
+		  android:padding="3dip" />
+	<EditText android:id="@+id/copyright"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content" />
+    </TableRow>
+</TableLayout>

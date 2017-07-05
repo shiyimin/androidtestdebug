@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+  <LinearLayout android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <Button android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:id="@+id/btnDelete"
+	    android:text="删除" />
+    <Button android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:id="@+id/btnAdd"
+	    android:text="添加" />
+  </LinearLayout>
+  <ExpandableListView 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:id="@id/android:list"
+      android:drawSelectorOnTop="true" />
+</LinearLayout>
